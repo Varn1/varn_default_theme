@@ -1,0 +1,15 @@
+// Footer
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#footer {
+  background: $footerbg;
+  color: white;
+  a {
+    color: white;
+  }
+}
