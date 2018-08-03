@@ -24,7 +24,7 @@
         <section id="branding" class='col-2-m no-padding '>
         <a href='/'><img class='fluid-img' src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png' alt='' /></a>
         </section>
-        <nav id="menu" role="navigation" class='margin-left-auto none block-m'>
+        <nav id="header-menu" role="navigation" class='margin-left-auto none flex-m'>
           <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         </nav>
         <div class="block none-m no-padding margin-left-auto hamburger-wrapper">
